@@ -2,7 +2,17 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 
+// function Hello(){
+//   return <h1>Hello there!</h1>;
+// }
+class Hello extends React.Component {
+  render() {
+    return <h1>Hello world!</h1>;
+  }
+} 
+const el =  <Hello />;
+
 ReactDOM.render(
-  <h1>Hello, React!</h1>,
+  el,
   document.getElementById('root')
 );
