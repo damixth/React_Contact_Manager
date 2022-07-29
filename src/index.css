@@ -12,6 +12,28 @@ code {
     monospace;
 }
 
+ul {
+  padding: 0;
+  margin:10px 0 0 0;
+}
+
+li {
+  background-color:rgb(189, 218, 243);
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  list-style: none;
+}
+
+h1 {
+  font-family: Lato;
+  margin: 10px;
+}
+
+form {
+  margin: 10px;
+}
+
 .item {
   background-color:aliceblue;
   margin: 10px;
